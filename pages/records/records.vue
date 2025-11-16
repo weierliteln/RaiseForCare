@@ -1,6 +1,6 @@
 <template>
-	<view class="home-container">
-		<text>首页</text>
+	<view class="records-container">
+		<text>记录</text>
 	</view>
 </template>
 
@@ -8,14 +8,14 @@
 	export default {
 		data() {
 			return {
-
+				
 			};
 		}
 	}
 </script>
 
 <style lang="scss" scoped>
-	.home-container {
+	.records-container {
 		width: 100%;
 		height: 100vh;
 		display: flex;

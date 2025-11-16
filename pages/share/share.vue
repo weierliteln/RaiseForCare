@@ -1,6 +1,6 @@
 <template>
-	<view class="home-container">
-		<text>首页</text>
+	<view class="share-container">
+		<text>分享</text>
 	</view>
 </template>
 
@@ -8,14 +8,14 @@
 	export default {
 		data() {
 			return {
-
+				
 			};
 		}
 	}
 </script>
 
 <style lang="scss" scoped>
-	.home-container {
+	.share-container {
 		width: 100%;
 		height: 100vh;
 		display: flex;

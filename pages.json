@@ -5,27 +5,24 @@
 		"style" : 
 		{
 			"navigationBarTitleText" : "首页"
-			// "navigationBarTextStyle" : "white",
-			// "navigationBarBackgroundColor" : "#007AFF"
-			
 		}
 	},
 	{
-		"path" : "pages/daily/daily",
+		"path" : "pages/records/records",
 		"style" : 
 		{
-			"navigationBarTitleText" : "日常"
+			"navigationBarTitleText" : "记录"
 		}
 	},
 	{
-		"path" : "pages/AI_assistant/AI_assistant",
+		"path" : "pages/share/share",
 		"style" : 
 		{
-			"navigationBarTitleText" : "AI助手"
+			"navigationBarTitleText" : "分享"
 		}
 	},
 	{
-		"path" : "pages/my/my",
+		"path" : "pages/profile/profile",
 		"style" : 
 		{
 			"navigationBarTitleText" : "我的"
@@ -64,19 +61,19 @@
 				"selectedIconPath": "/static/images/首页选中.png"
 			},
 			{
-				"pagePath": "pages/daily/daily",
-				"text": "日常",
+				"pagePath": "pages/records/records",
+				"text": "记录",
 				"iconPath": "/static/images/日历.png",
 				"selectedIconPath": "/static/images/日历选中.png"
 			},
 			{
-				"pagePath": "pages/AI_assistant/AI_assistant",
-				"text": "AI助手",
+				"pagePath": "pages/share/share",
+				"text": "分享",
 				"iconPath": "/static/images/机器人图标.png",
 				"selectedIconPath": "/static/images/机器人图标选中.png"
 			},
 			{
-				"pagePath": "pages/my/my",
+				"pagePath": "pages/profile/profile",
 				"text": "我的",
 				"iconPath": "/static/images/我的.png",
 				"selectedIconPath": "/static/images/我的选中.png"
@@ -86,21 +83,7 @@
 	"subPackages": [
 		{
 			"root": "subpkg",
-			"pages": [
-			{
-				"path" : "records/records",
-				"style" : 
-				{
-					"navigationBarTitleText" : "健康档案"
-				}
-			},
-			{
-				"path" : "information/information",
-				"style" : 
-				{
-					"navigationBarTitleText" : "个人信息"
-				}
-			}]
+			"pages": []
 		}
 	]
 }

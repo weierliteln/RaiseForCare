@@ -21,9 +21,11 @@
 	
 	@import '@/static/font/iconfont.css';
 
-	// 设置整个项目的背景色
+	// 设置整个项目的渐变背景
 	page {
-		background-color: #fff;
+		background: linear-gradient(135deg, #fef8e8 0%, #ffe9d9 100%);
+		background-attachment: fixed; /* 固定背景，不随滚动 */
+		min-height: 100vh;
 	}
 
 	/* #endif */
